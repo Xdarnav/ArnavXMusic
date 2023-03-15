@@ -7,7 +7,7 @@ from ..logging import LOGGER
 
 def dirr():
     if "assets" not in listdir():
-        LOGGER(name).warning(
+        LOGGER(__name__).warning(
             f"Assets Folder not Found. Please clone repository again."
         )
         sys.exit()
@@ -21,4 +21,4 @@ def dirr():
         mkdir("downloads")
     if "cache" not in listdir():
         mkdir("cache")
-    LOGGER(name).info("Directories Updated.")
+    LOGGER(__name__).info("Directories Updated.")
