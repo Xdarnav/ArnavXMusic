@@ -7,12 +7,12 @@ from pyrogram import filters
 
 load_dotenv()
 
-API_ID = int(getenv("API_ID", "19114789"))
-API_HASH = getenv("API_HASH", "19114789:80fd047285f4e94ca80311928b6bb9da")
+API_ID = int(getenv("API_ID", ""))
+API_HASH = getenv("API_HASH")
 
-BOT_TOKEN = getenv("BOT_TOKEN", "")
+BOT_TOKEN = getenv("BOT_TOKEN")
 
-MONGO_DB_URI = getenv("MONGO_DB_URI", "")
+MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 
 DURATION_LIMIT_MIN = int(
     getenv("DURATION_LIMIT", "900")
@@ -36,9 +36,9 @@ HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/singhji143/ArnavXMusic",
+    "https://github.com/Xdarnav/ArnavXMusic",
 )
-UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "arnav")
+UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 
 GIT_TOKEN = getenv("GIT_TOKEN", "")
 
@@ -122,7 +122,7 @@ GLOBAL_IMG_URL = getenv(
 
 STATS_IMG_URL = getenv(
     "STATS_IMG_URL",
-    "assets/Stats.jpeg",
+    "https://telegra.ph/file/ec2c2ff62ece901c28697.jpg",
 )
 
 TELEGRAM_AUDIO_URL = getenv(
@@ -137,7 +137,7 @@ TELEGRAM_VIDEO_URL = getenv(
 
 STREAM_IMG_URL = getenv(
     "STREAM_IMG_URL",
-    "assets/Stream.jpeg",
+    "https://telegra.ph/file/ec2c2ff62ece901c28697.jpg",
 )
 
 SOUNCLOUD_IMG_URL = getenv(
