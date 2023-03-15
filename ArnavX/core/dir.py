@@ -10,7 +10,7 @@ def dirr():
         LOGGER(__name__).warning(
             f"Assets Folder not Found. Please clone repository again."
         )
-        sys.exit()
+        
     for file in os.listdir():
         if file.endswith(".jpg"):
             os.remove(file)
@@ -21,4 +21,4 @@ def dirr():
         mkdir("downloads")
     if "cache" not in listdir():
         mkdir("cache")
-    LOGGER(__name__).error("Directories Updated.")
+    LOGGER(__name__).info("Directories Updated.")
