@@ -36,5 +36,3 @@ Apple = AppleAPI()
 Resso = RessoAPI()
 SoundCloud = SoundAPI()
 Telegram = TeleAPI()
-
-aiohttpsession = ClientSession()
