@@ -1,4 +1,4 @@
-from ArnavX.core.bot import ArnavBot
+from ArnavX.core.bot import ArnavXBot
 from ArnavX.core.dir import dirr
 from ArnavX.core.git import git
 from ArnavX.core.userbot import Userbot
@@ -22,7 +22,7 @@ heroku()
 sudo()
 
 # Bot Client
-app = ArnavBot()
+app = ArnavXBot()
 
 # Assistant Client
 userbot = Userbot()
@@ -36,3 +36,5 @@ Apple = AppleAPI()
 Resso = RessoAPI()
 SoundCloud = SoundAPI()
 Telegram = TeleAPI()
+
+aiohttpsession = ClientSession()
