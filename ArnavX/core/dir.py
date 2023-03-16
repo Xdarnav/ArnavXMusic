@@ -21,4 +21,3 @@ def dirr():
         mkdir("downloads")
     if "cache" not in listdir():
         mkdir("cache")
-    LOGGER(name).info("Directories Updated.")
