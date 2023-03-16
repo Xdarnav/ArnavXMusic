@@ -11,14 +11,15 @@ def dirr():
             f"Assets Folder not Found. Please clone repository again."
         )
         sys.exit()
-    for file in os.listdir(ArnavX):
+    for file in os.listdir():
         if file.endswith(".jpg"):
             os.remove(file)
     for file in os.listdir():
         if file.endswith(".jpeg"):
             os.remove(file)
-    if "downloads" not in listdir(ArnavX):
+    if "downloads" not in listdir():
         mkdir("downloads")
-    if "cache" not in listdir(ArnavX):
+    if "cache" not in listdir():
         mkdir("cache")
-    LOGGER(__name__).info("Directories Updated.")
+    LOGGER(__name__).
+        info("Directories Updated.")
