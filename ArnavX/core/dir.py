@@ -11,7 +11,7 @@ def dirr():
             f"Assets Folder not Found. Please clone repository again."
         )
         sys.exit()
-    for file in os.listdir():
+    for file in os.listdir(ArnavX):
         if file.endswith(".jpg"):
             os.remove(file)
     for file in os.listdir():
