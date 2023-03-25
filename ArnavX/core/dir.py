@@ -6,7 +6,7 @@ from ..logging import LOGGER
 
 
 def dirr():
-    for file in os.listdir(ArnavX):
+    for file in os.listdir():
         if file.endswith(".jpg"):
             os.remove(file)
     for file in os.listdir():
