@@ -10,21 +10,21 @@ from pytgcalls.exceptions import NoActiveGroupCall
 import config
 from config import BANNED_USERS, lyrical
 from strings import get_command
-from arnavX import (Apple, Resso, SoundCloud, Spotify, Telegram,
+from ArnavX import (Apple, Resso, SoundCloud, Spotify, Telegram,
                         YouTube, app)
-from arnavX.core.call import Arnav
-from arnavX.utils import seconds_to_min, time_to_seconds
-from arnavX.utils.channelplay import get_channeplayCB
-from arnavX.utils.database import is_video_allowed
-from arnavX.utils.decorators.language import languageCB
-from arnavX.utils.decorators.play import PlayWrapper
-from arnavX.utils.formatters import formats
-from arnavX.utils.inline.play import (livestream_markup,
+from ArnavX.core.call import Arnav
+from ArnavX.utils import seconds_to_min, time_to_seconds
+from ArnavX.utils.channelplay import get_channeplayCB
+from ArnavX.utils.database import is_video_allowed
+from ArnavX.utils.decorators.language import languageCB
+from ArnavX.utils.decorators.play import PlayWrapper
+from ArnavX.utils.formatters import formats
+from ArnavX.utils.inline.play import (livestream_markup,
                                           playlist_markup,
                                           slider_markup, track_markup)
-from arnavX.utils.inline.playlist import botplaylist_markup
-from arnavX.utils.logger import play_logs
-from arnavX.utils.stream.stream import stream
+from ArnavX.utils.inline.playlist import botplaylist_markup
+from ArnavX.utils.logger import play_logs
+from ArnavX.utils.stream.stream import stream
 
 # Command
 PLAY_COMMAND = get_command("PLAY_COMMAND")
