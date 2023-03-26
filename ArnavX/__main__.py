@@ -45,7 +45,7 @@ async def init():
         pass
     await app.start()
     for all_module in ALL_MODULES:
-        importlib.import_module("ArnavX.plugins." + all_module)
+        importlib.import_module("ArnavX.plugins" + all_module)
     LOGGER("ArnavX.plugins").info(
         "Necessary Modules Imported Successfully."
     )
