@@ -25,7 +25,7 @@
 </details>
 <pre>
 <b><i>••DEPLOY TO HEROKU••</i></b>
-<p><a href="https://heroku.com/dashboard.Heroku.com/new-app?template=https://github.com/Xdarnav/ArnavXMusic"><img src="https://img.shields.io/badge/Deploy%20To%20Heroku-purple?style=for-the-badge&logo=heroku" width="200""/></a></p>
+<p><a href="dashboard.Heroku.com/new-app?template=https://github.com/Xdarnav/ArnavXMusic"><img src="https://img.shields.io/badge/Deploy%20To%20Heroku-purple?style=for-the-badge&logo=heroku" width="200""/></a></p>
 </pre>
 
 ## 🌀 ᴡᴏʀᴋFʟᴏᴡs 
