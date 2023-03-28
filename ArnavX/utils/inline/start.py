@@ -38,7 +38,7 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
     buttons = [
         [
             InlineKeyboardButton(
-                text="🙋‍♀️‍️ ʙᴀʙʏ ᴀᴅᴅ ʏᴏᴜʀ ɢʀᴏᴜᴘ 🙋",
+                text="💒 ʙᴀʙʏ ᴀᴅᴅ ʏᴏᴜʀ ɢʀᴏᴜᴘ 💒",
                 url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
             ),
         ],
@@ -48,14 +48,14 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
             ),
         ],
         [
-            InlineKeyboardButton(text="Fᴏᴜɴᴅᴇʀ", user_id=OWNER),
+            InlineKeyboardButton(text="💗 Fᴏᴜɴᴅᴇʀ 💗", user_id=OWNER),
             InlineKeyboardButton(
-                text="sᴜᴩᴩᴏʀᴛ", url=f"{config.SUPPORT_GROUP}"
+                text="🍀 sᴜᴩᴩᴏʀᴛ 🍀", url=f"{config.SUPPORT_GROUP}"
             ),
         ],
         [
             InlineKeyboardButton(
-                    text="sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ", url=f"{config.UPSTREAM_REPO}"
+                    text="☀️ ᴅᴏɴᴛ ғᴏʀɢᴇᴛ ☀️", url=f"https://youtube.com/@arnavsingh143"
                 )
         ],
      ]
