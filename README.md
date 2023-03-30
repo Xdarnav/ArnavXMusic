@@ -1,5 +1,7 @@
 # ━━━༺ᴀʀɴᴀᴠ ᴍᴜsɪᴄ༻━━━━
 
+
+
 • - -  - - - ☆- - - - - •• - - - - - ☆- - - - - •
 🧜‍♀️ ᴀ ᴘᴏᴡᴇʀꜰᴜʟʟ ᴀʀɴᴀᴠ Music ʙᴏᴛ ꜰᴏʀ ᴛᴇʟᴇɢʀᴀᴍ ɢʀᴏᴜᴘ ᴠᴏɪᴄᴇ ᴄʜᴀᴛ 💘🥀
 • - - - -- - ☆- - -  - - •• - - - - - ☆- - - - - •
@@ -24,9 +26,6 @@
 - **Playlist Fᴇᴀᴛᴜʀᴇ ᴀʟsᴏ ᴀᴠᴀɪʟᴀʙʟᴇ**
 </details>
 <pre>
-<b><i>••DEPLOY TO HEROKU••</i></b>
-<p><a href="https://dashboard.Heroku.com/new-app?template=https://github.com/Xdarnav/ArnavXMusic"><img src="https://img.shields.io/badge/Deploy%20To%20Heroku-purple?style=for-the-badge&logo=heroku" width="200""/></a></p>
-</pre>
 
 ## 🌀 ᴡᴏʀᴋFʟᴏᴡs 
 <pre>
